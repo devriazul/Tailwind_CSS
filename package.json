@@ -1,5 +1,36 @@
 {
+
+  "name": "tailwindstart",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "tailwind.config.js",
+
+  "scripts": {
+
+    "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css",
+
+    "dev:css": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css -w"
+
+  },
+
+  "keywords": [],
+
+  "author": "Riazul Islam",
+
+  "license": "ISC",
+
   "devDependencies": {
+
+    "autoprefixer": "^10.4.0",
+
+    "postcss": "^8.4.5",
+
     "tailwindcss": "^3.0.7"
+
   }
+
 }
+
